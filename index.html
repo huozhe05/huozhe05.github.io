@@ -61,7 +61,7 @@
 			</ul>
 		</nav>
 		<nav>
-			总文章数 19
+			总文章数 20
 		</nav>
 		<nav class="header-smart-menu">
     		
@@ -210,6 +210,79 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2020/10/11/tasks/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-读写译" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/10/14/%E8%AF%BB%E5%86%99%E8%AF%91/">读写译</a>
+    </h1>
+  
+
+        
+        <a href="/2020/10/14/%E8%AF%BB%E5%86%99%E8%AF%91/" class="archive-article-date">
+  	<time datetime="2020-10-14T11:04:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-14</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Good morning everyone, my name is lvlanbing.<br>Maybe it is easy for us humans to figure out a certain object in the picture, but how can the computer detect its target in image?<br>Today I will introduce you the effective technology, faster r-cnn, which can work out this problem.<br>r-cnn and fast r-cnn can also solve the problem<br>however ,r-cnn generate a host of repetitive region proposals<br>fast r-cnn<code>s process of generating region proposal is slow
+because fast  r-cnn takes 2 seconds to detect a picture
+faster r-cnn introduce a region proposal network 
+so faster r-cnn consist of RPN and  fast R-CNN
+fast r-cnn is a detection network.
+Obtain convolutional features through convolutional layers
+RPN shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals.
+the detection system has a frame rate of 5fps on a GPU
+new method of detection is yolo v5, which is not like faster r-cnn that  takes two steps to implement.
+so yolo v5 detective rate is fast, but its accuracy rate is inferior to faster r-cnn</code>s</p>
+<p>怎样在一张图片中检测出我们想要的物体呢？<br>今天我演讲的题目的faster r-cnn，它可以解决检测问题<br>在faster之前，r-cnn和fast解决同样的问题<br>但是，r-cnn会生成大量的冗余提议区域；fast生成提议区域的过程太慢了<br>fast检测一张图片要花2s<br>faster引入了RPN提议网络，它主要是生成提议区域的<br>所以，faster是由RPN和fast组成的<br>fast用来识别提议区间的<br>faster 先通过卷积层获得卷积特征，RPN和fast可以共享这个卷积特征。所以faster生成提议区域的成本很小<br>faster检测一张图片不足1s<br>最新的检测方法是yolo v5，它不像faster要分成两步，所以检测速度很快，但是准确率不如faster</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/10/14/%E8%AF%BB%E5%86%99%E8%AF%91/">展开全文 >></a>
         </p>
       
 
@@ -832,88 +905,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2020/03/19/%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E5%B9%B8%E8%BF%90%E6%95%B0/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-最长回文串" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/19/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2/">最长回文串</a>
-    </h1>
-  
-
-        
-        <a href="/2020/03/19/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2/" class="archive-article-date">
-  	<time datetime="2020-03-19T13:19:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-19</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="题目409"><a href="#题目409" class="headerlink" title="题目409"></a><a href="https://leetcode-cn.com/problems/longest-palindrome/" target="_blank" rel="noopener">题目409</a></h3><p>给定一个包含大写字母和小写字母的字符串，找到通过这些字母构造成的最长的回文串。</p>
-<p>在构造过程中，请注意区分大小写。比如 “Aa” 不能当做一个回文字符串。</p>
-<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">输入:</span><br><span class="line">&quot;abccccdd&quot;</span><br><span class="line"></span><br><span class="line">输出:</span><br><span class="line">7</span><br><span class="line"></span><br><span class="line">解释:</span><br><span class="line">我们可以构造的最长的回文串是&quot;dccaccd&quot;, 它的长度是 7。</span><br></pre></td></tr></table></figure>
-        
-          <a class="article-more-a" href="/2020/03/19/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">leetcode</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/03/19/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2/">展开全文 >></a>
         </p>
       
 
